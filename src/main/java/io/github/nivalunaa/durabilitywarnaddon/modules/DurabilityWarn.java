@@ -4,6 +4,7 @@ import io.github.nivalunaa.durabilitywarnaddon.DurabilityWarnAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
+import meteordevelopment.meteorclient.systems.modules.Categories;
 import meteordevelopment.orbit.EventHandler;
 import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
@@ -32,7 +33,7 @@ public class DurabilityWarn extends Module {
     }
 
     public DurabilityWarn() {
-        super(DurabilityWarnAddon.CATEGORY, "durability-warn", "Live updates in action bar when items are low.");
+        super(Categories.Misc, "durability-warn", "Live updates in action bar when items are low.");
     }
 
     @EventHandler
