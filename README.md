@@ -21,4 +21,4 @@ Windows:
 ```cmd
 gradlew build
 ```
-Finished jar will be in build/libs/
+Finished jar will be in `build/libs/`
