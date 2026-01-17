@@ -10,7 +10,7 @@
   "contact": {
     "sources": "https://github.com/nivalunaa/durability-warn"
   },
-  "icon": "assets/template/icon.png",
+  "icon": "assets/durability-warn/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
