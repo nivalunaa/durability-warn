@@ -4,13 +4,11 @@ import io.github.nivalunaa.durabilitywarnaddon.modules.DurabilityWarn;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.GithubRepo;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
-import meteordevelopment.meteorclient.systems.modules.Category;
-import meteordevelopment.meteorclient.systems.modules.Modules;
+import meteordevelopment.meteorclient.systems.modules.Modules; // Keep this
 import org.slf4j.Logger;
 
 public class DurabilityWarnAddon extends MeteorAddon {
     public static final Logger LOG = LogUtils.getLogger();
-    public static final Category CATEGORY = new Category("Example");
 
     @Override
     public void onInitialize() {
@@ -22,7 +20,7 @@ public class DurabilityWarnAddon extends MeteorAddon {
 
     @Override
     public void onRegisterCategories() {
-        Modules.registerCategory(CATEGORY);
+        // Leave this empty! You aren't adding a new category anymore.
     }
 
     @Override
